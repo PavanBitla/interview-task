@@ -1,0 +1,90 @@
+.ourstory-wrapper {
+  padding: 40px;
+  background: #fff;
+  color: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ourstory-container {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+}
+
+.ourstory-sidebar {
+  flex: 1;
+  color: #444;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.ourstory-label {
+  font-weight: 700;
+  margin-top: 16px;
+  display: block;
+}
+
+.ourstory-logo {
+  font-weight: 700;
+  font-size: 32px;
+  color: #d80000;
+  margin-bottom: 30px;
+  font-family: 'Segoe UI Black', Arial, sans-serif;
+}
+
+.ourstory-content {
+  flex: 3;
+}
+
+.ourstory-content h1 {
+  font-weight: 700;
+  font-size: 38px;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.ourstory-lead {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.ourstory-content p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 24px;
+  line-height: 1.5;
+  color: #222;
+}
+
+.ourstory-buttons {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ourstory-btn {
+  background-color: #d80000;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ourstory-btn svg {
+  fill: white;
+  width: 16px;
+  height: 16px;
+}

@@ -1,0 +1,110 @@
+/* Main wrapper */
+.pricing-wrapper {
+  font-family: Arial, sans-serif;
+  color: #2b2b2b;
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.pricing-section {
+  padding: 20px;
+}
+
+.pricing-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+/* Table */
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.pricing-table thead th {
+  background-color: #f9f9f9;
+}
+
+.pricing-column h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.pricing-column h3 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #000;
+}
+
+.period {
+  font-size: 14px;
+  color: #777;
+}
+
+button {
+  background-color: #ed1c24;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #c00;
+}
+
+.offer {
+  font-weight: bold;
+  background-color: #ed1c24;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.extended {
+  border-left: 2px solid #ed1c24;
+  border-right: 2px solid #ed1c24;
+}
+
+.sales-contact {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.sales-contact h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.sales-contact p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.cta-section {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.cta-section h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.cta-section p {
+  font-size: 14px;
+  color: #555;
+}

@@ -1,0 +1,117 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px 80px;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-logo-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 30px;
+}
+
+.logo-text {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-columns {
+  display: flex;
+  flex: 3;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 300px;
+  gap: 40px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 150px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-column a:hover {
+  color: #fff;
+}
+
+.footer-buttons {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.footer-btn.red {
+  background-color: red;
+  color: white;
+}
+
+.footer-btn.white {
+  background-color: white;
+  color: red;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: #ccc;
+  font-size: 13px;
+  margin-top: 60px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-buttons {
+    position: ab;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
