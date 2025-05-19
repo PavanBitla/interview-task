@@ -14,7 +14,7 @@ function HomePage() {
           <a href="/About">About us</a>
 
           <a href="/our-story">Our Story</a>
-          <a href="#">Sell on 1MDM</a>
+          <a href="/Sellon">Sell on 1MDM</a>
           <a href="/pricing">Pricing</a>
         </div>
         <div className="account-links">

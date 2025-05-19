@@ -6,6 +6,10 @@ import PricingPage from "./components/PricingPage"
 import ContactPage from "./components/ContactPage";
 import AboutUs from "./components/AboutUs";
 import SellOn from "./components/SellOn";
+import Careers from "./components/Careers";
+import Blog from "./components/Blog";
+import Brand from "./components/Brand";
+import TermsOfService from "./components/TermsOfService";
 
 
 function App() {
@@ -18,6 +22,10 @@ function App() {
         <Route path="/aboutus" element={<AboutUs />}/>
          <Route path="/Sellon" element={<SellOn />} />
         <Route path="/Contact" element={<ContactPage /> } />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/brand" element={<Brand />} />
+        <Route path="/terms" element={<TermsOfService />} />
       </Routes>
     </Router>
   );

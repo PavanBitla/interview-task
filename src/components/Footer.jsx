@@ -17,26 +17,26 @@ const Footer = () => {
         <div className="footer-columns">
           <div className="footer-column">
             <h4>Platform</h4>
-            <a href="#">Sell on 1MDM</a>
-            <a href="#">Pricing</a>
-            <a href="#">About Us</a>
-            <a href="#">Our Story</a>
-            <a href="#">Careers</a>
-            <a href="#">Blog</a>
-            <a href="#">Brands</a>
+            <a href="/Sellon">Sell on 1MDM</a>
+            <a href="/pricing">Pricing</a>
+            <a href="/aboutus">About Us</a>
+            <a href="/Our-story">Our Story</a>
+            <a href="/careers">Careers</a>
+            <a href="/blog">Blog</a>
+            <a href="/brand">Brands</a>
           </div>
           <div className="footer-column">
             <h4>Press Room</h4>
-            <a href="#">Images & B-roll</a>
+            <a href="/terms">Images & B-roll</a>
             <h4>Policies</h4>
-            <a href="#">Terms of Service</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Delivery Information</a>
+            <a href="/terms">Terms of Service</a>
+            <a href="/terms">Privacy Policy</a>
+            <a href="/Contact">Delivery Information</a>
           </div>
           <div className="footer-column">
             <h4>Reach Us</h4>
-            <a href="#">Corporate Information</a>
-            <a href="#">Contact Us</a>
+            <a href="/Contact">Corporate Information</a>
+            <a href="/Contact">Contact Us</a>
           </div>
         </div>
       </div>
